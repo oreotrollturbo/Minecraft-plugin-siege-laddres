@@ -1,0 +1,16 @@
+name: Siege_ladders
+version: '${project.version}'
+main: org.oreo.siege_ladders.Siege_ladders
+api-version: '1.20'
+
+commands:
+
+  siege-ladder: #Give the siege ladder to the player
+    description: Gives the siegeLadder to the player
+    usage: /<command>
+    aliases: [siegeLadder]
+
+  remove-siege-ladders: #Give the siege ladder to the player
+    description: Removes all siege ladders in the world
+    usage: /<command>
+    aliases: [ removeSiegeLadders ]

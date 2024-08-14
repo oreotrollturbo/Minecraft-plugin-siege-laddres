@@ -1,0 +1,14 @@
+ladder-delay: 15  # Delay between every ladder placed (in ticks)
+max-ladders: 25 # Maximum amount of ladders it can place before stopping
+max-solid-blocks-broken: 3 # The maximum amount of solid blocks the ladder can break before it stops (3 by default)
+# Keep in mind that the ladder will always break the block above itself when it's done to avoid any overhangs that stop it
+
+# These next ones are the same as the previous except for when you use the ladder with its "supported" functionality
+# The supported functionality is when you left-click a block to make a supported ladder
+supported-ladder-delay: 18
+supported-max-ladders: 14
+supported-max-ladder-penalty: 5 # This is how many fewer ladders the supported siege ladder will have if placed on a siege ladder
+supported-max-solid-blocks-broken: 1
+
+safe-time: 120
+pvp-time: 60 #measured in minutes

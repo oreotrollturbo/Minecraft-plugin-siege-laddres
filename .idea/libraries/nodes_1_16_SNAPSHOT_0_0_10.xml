@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="nodes-1.16-SNAPSHOT-0.0.10">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/libs/nodes-1.16-SNAPSHOT-0.0.10.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
